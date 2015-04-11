@@ -32,8 +32,10 @@
     
     _myTableView.tableFooterView = [UIView new];
     
-    titleArray = @[@[@"重力",@"碰撞",@"连接",@"弹簧",@"吸附",@"推力"],
-                   @[@"项目一",@"项目二",@"项目三"]];
+    titleArray = @[@[@"重力 - UIGravityBehavior",@"碰撞 - UICollisionBehavior",
+                     @"连接 - UIAttachmentBehavior",@"弹簧 - UIAttachmentBehavior",
+                     @"吸附 - UISnapBehavior",@"推力 - UIPushBehavior"],
+                   @[@"项目一：串珠",@"简易游戏：消除",@"简易游戏：flappy（待完善）"]];
 }
 
 #pragma mark - UITableView Datasource
@@ -62,7 +64,7 @@
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 30)];
-    label.text = section==0?@"基础篇":@"实战篇";
+    label.text = section==0?@"基础篇":@"实战篇-简易";
     label.font = [UIFont boldSystemFontOfSize:20];
     label.textColor = [UIColor grayColor];
     label.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.4];
