@@ -1,3 +1,4 @@
+
 //
 //  AppDelegate.m
 //  DynamicsDemo
@@ -16,16 +17,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    RootViewController *root = [[RootViewController alloc]init];
+
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     RootViewController *root = [[RootViewController alloc]init];
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:root];
     [self.window makeKeyAndVisible];
+    RootViewController *root = [[RootViewController alloc]init];
+
     self.window.backgroundColor = [UIColor whiteColor];
     return YES;
 }
+RootViewController *root = [[RootViewController alloc]init];
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
+    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or     RootViewController *root = [[RootViewController alloc]init];
+when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
 }
 
