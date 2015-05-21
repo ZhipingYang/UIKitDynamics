@@ -35,7 +35,7 @@
     titleArray = @[@[@"重力 - UIGravityBehavior",@"碰撞 - UICollisionBehavior",
                      @"连接 - UIAttachmentBehavior",@"弹簧 - UIAttachmentBehavior",
                      @"吸附 - UISnapBehavior",@"推力 - UIPushBehavior"],
-                   @[@"项目一：串珠",@"简易游戏：消除",@"简易游戏：flappy（待完善。。）"]];
+                   @[@"项目一：串珠",@"简易游戏：消除",@"简易游戏：flappy（待完善）"]];
 }
 
 #pragma mark - UITableView Datasource
