@@ -1,7 +1,8 @@
 # UIKitDynamics
-UIKit Dynamic UIDynamicAnimator UIDynamicBehavior
 
 ##主要用来理解实战iOS7的物理引擎
+
+同样使用物理引擎的spriteKit简易游戏[FlappyBird](https://github.com/ZhipingYang/FlappyBird)
 
 ![图片三](https://github.com/ZhipingYang/UIKitDynamics/raw/master/demo.png)  
 
